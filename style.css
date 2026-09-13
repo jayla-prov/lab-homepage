@@ -1,1 +1,26 @@
 /* Add your styles here. */
+p {
+    color: magenta;
+}
+
+#title {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.cat-list {
+    border: 3px pink;
+    border-style: solid;
+    width: fit-content;
+    padding: 20px;
+}
+
+a:hover {
+    color: red;
+}
+
+@media (max-width: 6000px) {
+    body {
+        background-color: lightblue;
+    }
+}
