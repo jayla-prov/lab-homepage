@@ -1,6 +1,11 @@
-/* Add your styles here. */
+body {
+    background-color: lavenderblush;
+    font-family: sans-serif;
+    padding: 15px;
+}
+
 p {
-    color: magenta;
+    color: purple;
 }
 
 #title {
@@ -8,19 +13,66 @@ p {
     font-style: italic;
 }
 
-.cat-list {
-    border: 3px pink;
-    border-style: solid;
-    width: fit-content;
-    padding: 20px;
-}
-
-a:hover {
+a {
     color: red;
 }
 
-@media (max-width: 6000px) {
+a:hover {
+    color: darkred;
+}
+
+.menu {
+    background-color: pink;
+    border: solid red 2px;
+    padding: 15px;
+}
+
+.menu a {
+    margin-right: 15px;
+}
+
+.box {
+    border: 2px solid pink;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+
+.cat-colors {
+    border: pink 2px solid;
+    padding: 15px;
+}
+
+.cat-list {
+    border: 3px solid pink;
+    padding: 25px;
+}
+
+.highlight {
+    color: darkred;
+    font-weight: bold;
+}
+
+img {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+}
+
+th {
+    border: 1px solid black;
+    background-color: pink;
+    padding: 8px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+/* Small screens */
+@media (max-width: 600px) {
     body {
-        background-color: lightblue;
+        padding: 5px;
     }
 }
