@@ -1,6 +1,10 @@
+
+
 body {
+    max-width: 900px;
+    margin: 0 auto; 
     background-color: lavenderblush;
-    font-family: sans-serif;
+    font-family: times;
     padding: 15px;
 }
 
@@ -22,7 +26,7 @@ a:hover {
 }
 
 .menu {
-    background-color: pink;
+    background-color: rgb(255, 192, 247);
     border: solid red 2px;
     padding: 15px;
 }
@@ -38,14 +42,9 @@ a:hover {
 }
 
 
-.cat-colors {
+.cat-colors, .cat-list {
     border: pink 2px solid;
     padding: 15px;
-}
-
-.cat-list {
-    border: 3px solid pink;
-    padding: 25px;
 }
 
 .highlight {
@@ -61,7 +60,7 @@ img {
 
 th {
     border: 1px solid black;
-    background-color: pink;
+    background-color: rgb(255, 192, 247);
     padding: 8px;
 }
 
@@ -70,7 +69,6 @@ td {
     padding: 8px;
 }
 
-/* Small screens */
 @media (max-width: 600px) {
     body {
         padding: 5px;
